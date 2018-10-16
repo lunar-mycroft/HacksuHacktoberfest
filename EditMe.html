@@ -1,0 +1,29 @@
+<head>
+	<title>
+		Please... Edit Me
+	</title>
+</head>
+
+<body>
+	<h1>Edit anything on this page</h1>
+	<p id="edit">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget purus mi. Suspendisse potenti. Aliquam fermentum leo ac egestas feugiat. Nulla dapibus fringilla ultricies. Morbi sem felis, pellentesque eu odio non, imperdiet vestibulum neque. In ipsum nisi, facilisis vel tincidunt in, sagittis sit amet libero. Nullam a lectus ac orci sodales congue sit amet et turpis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean feugiat sem ac enim fermentum accumsan. Ut quis faucibus nunc. Donec ornare aliquam neque, a sagittis odio. Donec hendrerit suscipit urna sed imperdiet. Integer tincidunt urna justo, non sollicitudin metus tincidunt id. Nullam lacinia erat volutpat, efficitur diam eget, tempor eros.</p>
+
+	<button onclick="edit()">You can edit this also</button>
+</body>
+
+<script>
+	function edit() {
+		let random = Math.floor(Math.random() * 10);
+		let doc = document.getElementById("edit");
+		if (random < 2)
+			doc.innerHTML = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed eget purus mi. Suspendisse potenti. Aliquam fermentum leo ac egestas feugiat. Nulla dapibus fringilla ultricies. Morbi sem felis, pellentesque eu odio non, imperdiet vestibulum neque. In ipsum nisi, facilisis vel tincidunt in, sagittis sit amet libero. Nullam a lectus ac orci sodales congue sit amet et turpis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Aenean feugiat sem ac enim fermentum accumsan. Ut quis faucibus nunc. Donec ornare aliquam neque, a sagittis odio. Donec hendrerit suscipit urna sed imperdiet. Integer tincidunt urna justo, non sollicitudin metus tincidunt id. Nullam lacinia erat volutpat, efficitur diam eget, tempor eros.";
+		else if (random < 4)
+			doc.innerHTML = "Vestibulum porta libero nisi, id imperdiet velit aliquam lacinia. Phasellus commodo libero magna, vitae egestas felis volutpat ac. Etiam fermentum libero vitae scelerisque tincidunt. Aliquam elementum ac diam id placerat. Suspendisse potenti. Ut ut urna nisi. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Mauris interdum, urna sit amet aliquet ornare, dui sapien molestie risus, non sodales erat nibh at ante. In venenatis quam in quam euismod sodales. Maecenas gravida urna ut diam aliquam, nec gravida ex gravida. Nulla nisi eros, ornare id condimentum eu, luctus id nulla. Etiam ut magna dictum, luctus sem a, laoreet lacus. Sed elit elit, dignissim ac leo id, rhoncus volutpat leo. Quisque tempus nisl eget turpis auctor, sit amet dapibus ipsum mattis.";
+		else if (random < 6)
+			doc.innerHTML = "Donec efficitur nisi a orci pulvinar, at dignissim velit molestie. Mauris accumsan ultricies velit non ultricies. Nulla fermentum egestas molestie. Ut a nunc felis. Donec metus arcu, vulputate ac orci a, faucibus malesuada urna. Donec ut ante massa. Pellentesque auctor purus a enim convallis, at iaculis libero placerat. Vivamus sagittis lorem sit amet purus lacinia, et blandit orci mollis. Cras porttitor rutrum mattis. Praesent metus massa, luctus et augue eget, sodales ullamcorper velit. Morbi venenatis consequat interdum. Suspendisse ornare sed est non efficitur. Integer finibus lacinia libero at hendrerit. Nunc dignissim convallis libero, eget commodo augue pulvinar quis. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.";
+		else if (random < 8)
+			doc.innerHTML = "Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Phasellus vestibulum hendrerit magna sit amet tincidunt. Praesent ut faucibus mauris. Sed mollis malesuada pretium. Ut tincidunt lacus et neque bibendum ornare. Vivamus euismod ultrices odio, a convallis augue placerat vel. Ut vitae ullamcorper nisl. Nulla facilisi. Phasellus eleifend ex eget odio accumsan, vitae imperdiet nisl tempus. Fusce eu nulla dictum, venenatis justo ac, viverra tellus. Etiam ac mi ac arcu imperdiet maximus. Praesent condimentum nunc ut laoreet auctor. Duis vitae lobortis lorem.";
+		else if (random < 10)
+			doc.innerHTML = "Etiam lobortis orci in nunc commodo, in efficitur metus laoreet. Morbi id elementum purus, nec cursus lacus. Mauris tempor nisl ut nibh suscipit, a laoreet ipsum suscipit. Fusce dictum placerat nulla non pellentesque. Proin imperdiet vehicula ligula, in laoreet ex fermentum eget. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Phasellus sit amet libero condimentum, consequat nunc cursus, suscipit mauris. Duis ac dolor volutpat magna pharetra placerat.";
+	}
+</script>
